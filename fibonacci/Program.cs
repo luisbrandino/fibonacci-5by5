@@ -15,7 +15,7 @@ int last = 0;
 int current = 1;
 for (int i = 0; i < number; i++)
 {
-    Console.Write($"{last + current} ");
+    Console.Write($"{current} ");
 
     int aux = last + current;
     last = current;
